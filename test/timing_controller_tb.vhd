@@ -6,9 +6,9 @@ entity timing_controller_tb is
 end entity timing_controller_tb;
 
 architecture sim of timing_controller_tb is
-  constant CLK_PERIOD : time    := 10 ns;
-  constant DELAY_A    : natural := 4;
-  constant DELAY_B    : natural := 8;
+  constant CLK_PERIOD : time    := 20 ns;
+  constant DELAY_A    : natural := 2;
+  constant DELAY_B    : natural := 12;
 
   signal clk      : std_logic := '0';
   signal reset    : std_logic := '1';
@@ -124,6 +124,13 @@ begin
     end loop;
 
     report "Starting second timing sequence";
+    run_sequence;
+
+    for i in 1 to 4 loop
+      wait until rising_edge(clk);
+    end loop;
+
+    report "Starting third timing sequence";
     run_sequence;
 
     wait for 2 * CLK_PERIOD;
