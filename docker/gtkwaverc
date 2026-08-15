@@ -1,3 +1,44 @@
 do_initial_zoom_fit 1
 enable_vert_grid 1
 use_frequency_display 0
+
+# Light wave window so signal values stay readable.
+color_back ffffff
+color_grid d0d0d0
+color_grid2 a0a0ff
+color_time 000000
+color_timeb e8e8e8
+color_value 000000
+color_mark 0000aa
+color_umark cc0000
+color_baseline 808080
+
+color_0 006600
+color_1 0000cc
+color_1fill c8d8ff
+color_trans 0000aa
+color_mid 808000
+color_high 008080
+color_highfill b0e0e0
+color_low 006060
+color_x cc0000
+color_xfill ffcccc
+color_u aa0000
+color_ufill ffdddd
+color_w 806000
+color_wfill ffe8a0
+color_dash 806000
+color_dashfill ffe8a0
+
+color_vbox 0000aa
+color_vtrans 000088
+color_white ffffff
+color_black 000000
+color_ltgray e0e0e0
+color_normal 000000
+color_mdgray 808080
+color_dkgray 404040
+color_dkblue 000080
+color_ltblue 6080c0
+color_brkred aa0000
+color_gmstrd 806000
