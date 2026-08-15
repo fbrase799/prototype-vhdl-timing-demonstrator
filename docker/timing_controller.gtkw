@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer save file
+[*]
+[dumpfile] "/work/build/timing_controller.vcd"
+[savefile] "/work/docker/timing_controller.gtkw"
+[timestart] 0
+[size] 1600 900
+[pos] -1 -1
+*2.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 220
+[signals_width] 240
+[sst_expanded] 1
+[sst_vpaned_height] 400
+@28
+timing_controller_tb.clk
+timing_controller_tb.reset
+timing_controller_tb.trigger
+timing_controller_tb.output_a
+timing_controller_tb.output_b
+@22
+timing_controller_tb.dut.count[31:0]
+@28
+timing_controller_tb.dut.trigger_d
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,7 @@
+build/
+*.o
+*.cf
+*.vcd
+*.ghw
+/timing_controller_tb
+/e~timing_controller_tb.o

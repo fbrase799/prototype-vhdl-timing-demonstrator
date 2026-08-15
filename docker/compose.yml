@@ -1,0 +1,21 @@
+name: vhdl-timing-demonstrator
+
+services:
+  vhdl:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/work
+    working_dir: /work
+
+  gtkwave:
+    build:
+      context: ..
+      dockerfile: docker/gtkwave.Dockerfile
+    volumes:
+      - ..:/work
+    working_dir: /work
+    ports:
+      - "6080:6080"
+    init: true
